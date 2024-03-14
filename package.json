@@ -1,18 +1,24 @@
 {
-  "name": "test-project",
+  "name": "test-gsp-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private":"true",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ts-node build/build.ts"
+    "build": "node build/build.js",
+    "release": "node build/release.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.27",
+    "@types/semver": "^7.5.8",
     "@types/shelljs": "^0.8.15",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "semver": "^7.6.0",
     "shelljs": "^0.8.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
