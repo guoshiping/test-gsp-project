@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private": "true",
   "scripts": {
     "build": "node build/build.js",
     "release": "node build/release.js"

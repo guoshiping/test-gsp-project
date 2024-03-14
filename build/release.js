@@ -66,6 +66,8 @@ class Release extends Base {
         console.log('result', result);
         if (result.code !== 0) {
             this.logError('发布失败：', result.stderr);
+        } else {
+            this.logSuccess('发布成功');
         }
     }
 }

@@ -15,6 +15,10 @@ class Base {
     logError(message) {
         console.log(chalk.red(message));
     }
+
+    logSuccess(message) {
+        console.log(chalk.green(message));
+    }
 }
 
 module.exports = Base;
