@@ -4,7 +4,7 @@ const fs = require("fs-extra");
 const path = require("path");
 const Base = require("./base");
 
-// 注释一下
+// 注释一下1
 class Build extends Base {
   constructor() {
     super();
